@@ -1,0 +1,50 @@
+.backgroundColor {
+    background: linear-gradient(180deg, #2578AC 0%, #73B5DD 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.inner {
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+.inner2 {
+    /* background-color: aqua; */
+}
+
+.white {
+    color: white;
+}
+
+.btn {
+    width: 30%;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.btn2 {
+    background: linear-gradient(180deg, #2578AC 0%, #73B5DD 100%);
+    color:white;
+    font-weight: 300;
+}
+.textBtn{
+    margin-top: 15px;
+    /* color:white; */
+    font-weight: 700;
+}
+.textBtn:hover{
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .probINpt {}
+
+    .btn {
+        margin: auto;
+        width: 80%;
+        border: 2px solid green;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}

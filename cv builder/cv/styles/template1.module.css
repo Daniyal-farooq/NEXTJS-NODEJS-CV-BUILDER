@@ -1,0 +1,67 @@
+.sectionBackground {
+    background-color: rgb(11, 79, 205);
+    border-radius: 5px;
+    padding-left: 30px;
+  }
+.heading1 {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.sectionBackground{
+    background-color: #D7EAF6;
+}
+.inner1{
+ border : 1px solid green;
+ background-color: antiquewhite;
+}
+.graphics{
+    background-image: url('/wave.png');
+    /* height:100px; */ 
+}
+.img{
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+.color{
+    /* height:1.5em; */
+    background-color: rgb(11, 79, 205);
+    border-radius: 5px;
+    padding-left:30px;
+    /* text-align: center; */
+}
+.color p{
+    padding:5px;
+    font-family: "Roboto";
+}
+.icon{
+    color:skyblue;
+    margin-right: 10px;
+}
+.Roboto{
+    font-family: "Roboto";
+}
+.downloader{
+    border:1px solid black;
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(93, 147, 147); 
+    border-radius: 5px;
+}
+.downloader:hover{
+ cursor: pointer;  
+ background-color: aqua;     
+}

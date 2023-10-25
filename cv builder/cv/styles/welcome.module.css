@@ -1,0 +1,89 @@
+.image {
+    background-image: url('/Rectangle 4193.jpg');
+    /* Replace with the path to your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* height: 100vh; */
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the page takes the full viewport height */
+  
+}
+
+.cont {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #FAFAFA;
+    width: 70%;
+    margin: auto;
+    vertical-align: center;
+}
+.placeHolder {
+   
+    font-size: 15px;
+}
+.inpt {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #2578AC;
+    background: #FAFAFA;
+}
+.inpt2 {
+    max-width: 500px;
+    /* width: 30%; */
+    border-radius: 10px;
+    border: 1px solid #2578AC;
+    background: #FAFAFA;
+    font-size: 10px;
+}
+
+.btn {
+    background-color: #2578AC;
+    border-radius: 10px;
+    width: 100%;
+    height: 37px;
+    margin-top: 20px;
+}
+.SignIns{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #FAFAFA;
+    margin-top: 20px;
+}
+.fb{
+    font-size: 55px;
+}
+.CreateBtn{
+    cursor: pointer;
+}
+@media   (max-width: 768px)   {
+    .second{
+        margin-top: 10px;
+    }
+    
+}
+@media   (max-width: 680px)   {
+    .fb{
+        font-size: 15px;
+        
+    }
+    .inpt2 {
+        margin:auto;
+        width: 80%;
+        border-radius: 10px;
+        border: 1px solid #2578AC;
+        background: #FAFAFA;
+    }
+   
+  }
+ 

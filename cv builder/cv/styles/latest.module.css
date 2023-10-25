@@ -1,0 +1,232 @@
+.btn {
+    width: 179px;
+    height: 37px;
+    background-color: #2578AC;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.spacer {
+    background-color: #2578AC;
+    height: 500px;
+}
+
+.c1 {
+    /* border: 1px solid red; */
+    /* margin-left: -10px; */
+}
+
+.c2 {
+    /* border: 1px solid red; */
+    /* margin: none; */
+    height: 100%;
+}
+
+.c3 {
+    /* border: 1px solid red; */
+    /* margin-right: -10px; */
+}
+
+.btn2 {
+
+    width: 179px;
+    height: 37px;
+    background-color: #2578AC;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.blue {
+
+    background-color: #D7EAF6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.columnContent1 {
+    /* margin: 0 5px; */
+    /* border: 1px solid red; */
+    margin-right: 50px;
+}
+
+.columnContent1 h3 {
+    color: #2578AC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    font-family:"Montserrat" ;
+}
+
+.columnContent1 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+    text-align: justify;
+    font-family:"Montserrat" ;
+}
+
+.columnContent2 {
+    /* margin: 0 5px; */
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+
+
+.subox {
+    border: 1px solid #2578AC;
+    background-color: #D7EAF6;
+    border-radius: 10px;
+    padding: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+
+}
+
+.subox h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    color: #2578AC;
+    font-family:"Montserrat" ;
+}
+
+.subox p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    font-family:"Montserrat" ;
+}
+
+.b {
+    background: linear-gradient(180deg, #2578AC 0%, #73B5DD 100%);
+}
+.bottomHeading{
+    padding:40px;
+   
+}
+.bottomHeading h3 {
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    /* line-height: 19px; */
+    /* identical to box height, or 48% */
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    font-family:"Montserrat" ;
+    color: #FAFAFA;
+}
+
+.bottomHeading p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FAFAFA;
+    font-family:"Montserrat" ;
+}
+.bottomForm1{
+    margin-right: 30px;
+    /* border:1px solid red; */
+    
+}
+.bottomForm2{
+    margin-left: 30px;
+    /* border:1px solid red; */
+}
+@media (max-width:580px) {
+    .heading {
+        line-height: 01;
+        /* Decreases line spacing */
+    }
+
+    .c1 {
+        /* border: 1px solid red; */
+        /* margin-left: -10px; */
+        margin-top: 20px;
+    }
+
+    .c2 {
+        /* border: 1px solid red; */
+        /* margin: none; */
+        /* height:100%; */
+        margin-top: 20px;
+    }
+
+    .c3 {
+        /* border: 1px solid red; */
+        /* margin-right: -10px; */
+        margin-top: 20px;
+    }
+
+    .btn2 {
+        width: 179px;
+        height: 37px;
+        background-color: #2578AC;
+        border-radius: 10px;
+        border: none;
+        color: white;
+
+    }
+}
+@media (min-width:768px) and (max-width:992px)  {
+    .columnContent1 {
+        /* margin: 0 5px; */
+        /* border: 1px solid red; */
+        margin-right: 0px;
+    }
+
+    .columnContent2 {
+        /* margin: 0 5px; */
+        /* border: 1px solid red; */
+        margin-left: 0px;
+    }
+    .bottomForm1{
+        margin-right: 0px;
+        /* border:1px solid red; */
+        
+    }
+    .bottomForm2{
+        margin-left: 0px;
+        /* border:1px solid red; */
+    }
+}
+@media (max-width:768px) {
+    .columnContent1 {
+        /* margin: 0 5px; */
+        /* border: 1px solid red; */
+        margin-right: 0px;
+    }
+
+    .columnContent2 {
+        /* margin: 0 5px; */
+        /* border: 1px solid red; */
+        margin-left: 0px;
+    }
+    .bottomForm1{
+        margin-right: 0px;
+        /* border:1px solid red; */
+        
+    }
+    .bottomForm2{
+        margin-left: 0px;
+        /* border:1px solid red; */
+    }
+
+}

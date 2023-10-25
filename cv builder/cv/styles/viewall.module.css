@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('/fonts/Roboto Condensed.woff') format('woff');
+    /* Add additional src for other file formats if needed */
+}
+
+.heading1 {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sectionBackground {
+    background-color: #D7EAF6;
+}
+
+.inner1 {
+    border: 1px solid green;
+    background-color: antiquewhite;
+}
+
+.graphics {
+    background-image: url('/wave.png');
+    /* height:100px; */
+}
+
+.img {
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+.color {
+    /* height:1.5em; */
+    background-color: rgb(11, 79, 205);
+    border-radius: 5px;
+    padding-left: 30px;
+    /* text-align: center; */
+}
+
+.color p {
+    padding: 5px;
+    font-family: "Roboto";
+}
+
+.icon {
+    color: skyblue;
+    margin-right: 10px;
+}
+
+.Roboto {
+    font-family: "Roboto";
+}
+
+.body {
+    background-color: #AFDDFF;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    font-family: Rondal;
+}
+
+.imgSize {
+    height: "100px";
+    width: "100px";
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 300px solid blue;
+    border-right: 0px solid whitesmoke;
+    border-bottom: 50px solid whitesmoke;
+
+}
+
+.fontStyle {
+    margin-top: 0px;
+    font-size: 7px;
+    margin-bottom: 0px;
+}
+
+.picBox {
+    /* width: 284px;
+    height: 50px;
+    color: white;
+    margin-top: 0px;
+    font-size: 10px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: -10px; */
+
+
+    background-color: #d69d0d;
+    width: 284px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    z-index: 1;
+}
+.resTemp{
+    
+}
+@media (min-width: 1200px) {
+    .picBox {
+        width: 423px;
+    }
+    .resTemp{
+    width:500px
+    }
+    .firstTemplate{
+        margin-left:180px;
+    }
+  
+} 
+ @media (min-width: 991px) and (max-width:1200px) {
+    .picBox {
+        width: 400px;
+    }
+  
+} 
+@media (min-width: 576px) and (max-width:768px) {
+    .picBox {
+        width: 275px;
+    }
+    .resTemp{
+        width: 350px;
+        margin: auto;
+    }
+}
+@media (max-width:576px) {
+    .picBox {
+        width: 275px;
+    }
+    .resTemp{
+        width: 350px;
+        margin: auto;
+    }
+}
